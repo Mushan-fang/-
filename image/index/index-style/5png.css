@@ -1,0 +1,223 @@
+/*      公共区        */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background-color: #f5f5f5;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*       头部         */
+header {
+  width: 100%;
+  background-color: #ff8a00;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+header .header_l {
+  width: 20%;
+}
+header .header_l > img {
+  width: 100%;
+}
+header .header_r {
+  width: 20%;
+  display: flex;
+}
+header .header_r > div {
+  width: 50%;
+}
+header .header_r > div img {
+  width: 50%;
+}
+/*        主体        */
+.search {
+  width: 100%;
+}
+.search .search_top,
+.search .search_box {
+  width: 100%;
+  padding: 3% 5%;
+  box-sizing: border-box;
+}
+.search .search_top {
+  display: flex;
+  font-size: 0.14rem;
+}
+.search .search_top a {
+  color: #000;
+  font-size: 0.14rem;
+}
+.search .search_box {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  border-top: #cccccc 1px solid;
+  border-bottom: #cccccc 1px solid;
+}
+.search .search_box .search_border {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 3%;
+  background-color: #ffffff;
+}
+.search .search_box .search_border .search_input {
+  width: 70%;
+  display: inline-flex;
+}
+.search .search_box .search_border .search_input input {
+  border: none;
+  outline: none;
+}
+.search .search_box .search_border .search_font {
+  font-size: 0.14rem;
+}
+.search .search_box .search_border .search_img {
+  width: 8%;
+  font-size: 0rem;
+}
+.search .search_box .search_border .search_img img {
+  width: 100%;
+}
+.titl {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 5%;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+.titl .ever_titl {
+  width: 22.5%;
+  color: #666874;
+  display: flex;
+  justify-content: center;
+}
+.titl .ever_titl .ever_titl_font {
+  font-size: 0.2rem;
+  font-weight: 600;
+}
+.titl .ever_titl .ever_titl_img {
+  width: 20%;
+  font-size: 0rem;
+}
+.titl .ever_titl .ever_titl_img img {
+  width: 100%;
+}
+.cont {
+  width: 100%;
+  padding: 0% 5%;
+  box-sizing: border-box;
+}
+.cont .cont_con {
+  width: 100%;
+  border-bottom: 1px solid #ff8a00;
+  padding: 5% 0%;
+  box-sizing: border-box;
+  display: flex;
+}
+.cont .cont_con .cont_img {
+  width: 40%;
+  margin-right: 3%;
+  font-size: 0rem;
+}
+.cont .cont_con .cont_img img {
+  width: 100%;
+}
+.cont .cont_con .cont_font {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.cont .cont_con .cont_font .house {
+  font-size: 0.14rem;
+  font-weight: 600;
+}
+.cont .cont_con .cont_font .hous_addr,
+.cont .cont_con .cont_font .con_name,
+.cont .cont_con .cont_font .other {
+  font-size: 0.12rem;
+  margin-bottom: 2%;
+}
+.cont .cont_con .cont_font .other {
+  display: flex;
+  justify-content: space-between;
+}
+.cont .cont_con .cont_font .other .other_l {
+  width: 28%;
+  padding: 3%;
+  color: #6da719;
+  border: 1px solid #6da719;
+}
+.cont .cont_con .cont_font .other .other_r {
+  font-weight: 600;
+  color: #ff8a00;
+}
+.cont .cont_con:last-child {
+  border: none;
+}
+/*        底部          */
+.foo {
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #2f3130;
+  font-size: 0rem;
+}
+.foo .foo_t {
+  display: inline-flex;
+  border-bottom: 1px solid #3e403f;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.foo .foo_t a {
+  color: #939494;
+  font-size: 0.14rem;
+}
+.foo .foo_m {
+  display: flex;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.foo .foo_m .foo_m-l {
+  width: 50%;
+  display: flex;
+}
+.foo .foo_m .foo_m-l .foo_m_img,
+.foo .foo_m .foo_m-l .font {
+  width: 35%;
+  margin-left: 8%;
+}
+.foo .foo_m .foo_m-l .foo_m_img > img {
+  width: 100%;
+}
+.foo .foo_m .foo_m-l .font {
+  font-size: 0.14rem;
+  color: #939494;
+}
+.foo .foo_b {
+  width: 100%;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #939494;
+}
+.foo .foo_b div {
+  width: 100%;
+}

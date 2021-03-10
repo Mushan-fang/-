@@ -1,0 +1,319 @@
+/*      公共区        */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100px;
+}
+body {
+  background-color: #f5f5f5;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*       头部         */
+header {
+  width: 100%;
+  background-color: #ff8a00;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+header .header_l {
+  width: 20%;
+}
+header .header_l > img {
+  width: 100%;
+}
+header .header_r {
+  width: 20%;
+  display: flex;
+}
+header .header_r > div {
+  width: 50%;
+}
+header .header_r > div img {
+  width: 50%;
+}
+/*        主体        */
+.title {
+  width: 100%;
+  display: flex;
+  padding: 3% 5%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c5c5c5;
+}
+.title a {
+  color: #000000;
+  font-size: 0.12rem;
+}
+.title > a:first-child {
+  font-weight: 600;
+}
+.house {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+.house .house_img {
+  width: 100%;
+  font-size: 0rem;
+  position: relative;
+  top: 0rem;
+  right: 0rem;
+}
+.house .house_img img {
+  width: 100%;
+}
+.house .house_img .share {
+  font-size: 0.13rem;
+  width: 13%;
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  color: #ffffff;
+  padding: 2%;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.house .house_name_hart {
+  display: flex;
+  border-bottom: 1px solid #dcdcdc;
+}
+.house .house_name_hart .house_name {
+  width: 75%;
+  font-size: 0.17rem;
+  font-weight: 600;
+  padding: 3% 0 3% 3%;
+  box-sizing: border-box;
+  border-right: 1px solid #dcdcdc;
+}
+.house .house_name_hart .house_hart {
+  width: 25%;
+  padding: 5% ;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.house .house_name_hart .house_hart div {
+  width: 60%;
+  font-size: 0.12rem;
+  text-align: center;
+}
+.house .house_name_hart .house_hart div img {
+  width: 100%;
+}
+.house .house_pic {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.house .house_pic .house_intor:last-child {
+  border: none;
+}
+.house .house_pic .house_intor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-right: 1px solid #dcdcdc;
+}
+.house .house_pic .house_intor .house_font,
+.house .house_pic .house_intor .house_color {
+  font-size: 0.12rem;
+}
+.house .house_pic .house_intor .house_color {
+  margin-top: 10%;
+  color: #ff8a00;
+}
+.house .house_detailed {
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #ffffff;
+}
+.house .house_detailed li {
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+}
+.house .house_detailed li div {
+  width: 50%;
+  font-size: 0.13rem;
+}
+.house .house_detailed li:last-child {
+  border: none;
+}
+.other {
+  background-color: #f5f5f5;
+  padding: 2% 2% 0 2%;
+}
+.other .part1 {
+  padding: 2%;
+}
+.other .part1 .part1_title {
+  display: flex;
+  border: 1px solid #dcdcdc;
+  align-items: center;
+  padding: 5%;
+}
+.other .part1 .part1_title .part1_title_font {
+  width: 98%;
+  font-size: 0.2rem;
+  color: #ff8a00;
+}
+.other .part1 .part1_title .part1_title_img {
+  width: 2%;
+  font-size: 0rem;
+}
+.other .part1 .part1_title .part1_title_img img {
+  width: 100%;
+}
+.other .part1 .part1_font {
+  font-size: 0.13rem;
+  padding: 5% 3%;
+  line-height: 0.25rem;
+  border: 1px solid #dcdcdc;
+  border-top: none;
+}
+.other .part1 .map {
+  border: 1px solid #dcdcdc;
+  border-top: none;
+  padding: 4%;
+  box-sizing: border-box;
+}
+.other .part1 .map #map {
+  border: 1px solid #dcdcdc;
+  width: 100%;
+  height: 2rem;
+}
+.other .part1 .contract {
+  border: 1px solid #dcdcdc;
+  border-top: none;
+}
+.other .part1 .contract .contract_pic,
+.other .part1 .contract .contract_date {
+  font-size: 0.13rem;
+  padding: 3%;
+}
+.other .part1 .contract .contract_pic span,
+.other .part1 .contract .contract_date span {
+  color: #ff8a00;
+}
+.person {
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  padding: 3%;
+  box-sizing: border-box;
+}
+.person .contacts {
+  width: 70%;
+  font-size: 0rem;
+  display: flex;
+}
+.person .contacts .contacts_tou {
+  width: 22%;
+  font-size: 0rem;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+.person .contacts .contacts_tou img {
+  width: 100%;
+}
+.person .contacts .contacts_name_code {
+  width: 75%;
+  font-size: 0.12rem;
+}
+.person .contacts .contacts_name_code .contacts_name,
+.person .contacts .contacts_name_code .contacts_code {
+  margin: 0% 0%;
+}
+.person .phone_note {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.person .phone_note .phone,
+.person .phone_note .note {
+  width: 50%;
+  font-size: 0rem;
+  text-align: center;
+}
+.person .phone_note .phone img,
+.person .phone_note .note img {
+  width: 58%;
+}
+.person .phone_note .phone div,
+.person .phone_note .note div {
+  font-size: 0.12rem;
+}
+.person .phone_note .phone .phone_code,
+.person .phone_note .note .phone_code {
+  color: #5dcb96;
+}
+.person .phone_note .phone .message,
+.person .phone_note .note .message {
+  color: #5baede;
+}
+/*        底部          */
+.foo {
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #2f3130;
+  font-size: 0rem;
+}
+.foo .foo_t {
+  display: inline-flex;
+  border-bottom: 1px solid #3e403f;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.foo .foo_t a {
+  color: #939494;
+  font-size: 0.14rem;
+}
+.foo .foo_m {
+  display: flex;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.foo .foo_m .foo_m-l {
+  width: 50%;
+  display: flex;
+}
+.foo .foo_m .foo_m-l .foo_m_img,
+.foo .foo_m .foo_m-l .font {
+  width: 35%;
+  margin-left: 8%;
+}
+.foo .foo_m .foo_m-l .foo_m_img > img {
+  width: 100%;
+}
+.foo .foo_m .foo_m-l .font {
+  font-size: 0.14rem;
+  color: #939494;
+}
+.foo .foo_b {
+  width: 100%;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #939494;
+}
+.foo .foo_b div {
+  width: 100%;
+}
